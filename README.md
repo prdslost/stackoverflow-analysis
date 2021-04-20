@@ -4,9 +4,9 @@
 ## LIBRARIES
 - numpy
 - pandas
-- matplotlib.pyplot
+- matplotlib
 - seaborn
-- mlxtend.frequent_patterns
+- mlxtend
 - sparklines
 - base64
 - requests
@@ -14,7 +14,7 @@
 - itertools
 - io
 - datetime
-- IPython.display
+- IPython
 
 
 ## DATA
