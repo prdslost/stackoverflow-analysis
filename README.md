@@ -51,6 +51,10 @@ Discussion of results is available [here](#placeholder).
 
 ## Licensing and Acknowledgements <a name='license'></a>
 
-Acknowledgement to Stack Overflow for making the data freely accessible. Data is licensed under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/).
+Acknowledgements for the helpful sparkline and apriori/association rule mining libraries/documentation go to the respective authors of these libraries that can be found at:
+- https://github.com/iiSeymour/sparkline-nb
+- http://rasbt.github.io/mlxtend/
+
+Also, an acknowledgement to Stack Overflow for making the data freely accessible. Data is licensed under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/).
 
 
