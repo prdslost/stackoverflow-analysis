@@ -4,9 +4,10 @@ This repo contains a Jupyter Notebook analysis examining programming language pr
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Data Dependencies](#data)
-3. [Summary of Results](#summary)
-4. [Licensing and Acknowledgements](#license)
+2. [Project Motivations](#motivation)
+3. [File Descriptions](#filedesc)
+4. [Summary of Results](#summary)
+5. [Licensing and Acknowledgements](#license)
 
 
 
@@ -28,29 +29,38 @@ The code was written in Python 3 and uses the following additional libraries.
 - IPython
 
 
+## Project Motivations <a name='motivation'></a>
+The intent behind this project is to help answer the following questions using Stack Overflow's developer survey results.
 
-## Data Dependencies <a name='data'></a>
-Data for this analysis is located at - https://insights.stackoverflow.com/survey.
+- How has use and interest in various programming languages changed from 2016 to 2020?
+- Which languages have the most hype (2020 results)?
+- How does language interest vary by each language in use and what insights can we gain (2020 results)?
+- Which languages are most likely to be used together (2020 results)?
 
-The following files were downloaded and extract from the full data sets from year 2016 thru 2020:
 
-- 2016 Stack Overflow Survey Responses.csv
-- survey_results_schema_2017.csv
-- survey_results_public_2017.csv
-- survey_results_schema_2018.csv
-- survey_results_public_2018.csv
-- survey_results_schema_2019.csv
-- survey_results_public_2019.csv
-- survey_results_schema_2020.csv
-- survey_results_public_2020.csv
+## File Descriptions <a name='filedesc'></a>
+
+ |-Developer Programming Language Use and Interest.ipynb
+ |-README.md
+ |-2016 Stack Overflow Survey Responses.csv
+ |-survey_results_public_2017.csv
+ |-survey_results_public_2018.csv
+ |-survey_results_public_2019.csv
+ |-survey_results_public_2020.csv
+ |-survey_results_schema_2017.csv
+ |-survey_results_schema_2018.csv
+ |-survey_results_schema_2019.csv
+ |-survey_results_schema_2020.csv
+
+Due to GitHub storage limitations only the analytics notebook pertaining to the above questions as well as the ReadMe has been provided in this repo. The csv files containing the stackoverflow data can be downloaded here - https://insights.stackoverflow.com/survey.
+
+In order to properly run the notebook, download the full dataset for years 2017 thru 2020 and extract to the same parent directory where notebook has been saved.
 
 
 ## Summary of Results <a name='summary'></a>
-
 Discussion of results is available [here](#placeholder).
 
 ## Licensing and Acknowledgements <a name='license'></a>
-
 Acknowledgements for the helpful sparkline and apriori/association rule mining libraries/documentation go to the respective authors of these libraries that can be found at:
 - https://github.com/iiSeymour/sparkline-nb
 - http://rasbt.github.io/mlxtend/
