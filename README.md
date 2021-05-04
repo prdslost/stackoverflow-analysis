@@ -40,18 +40,20 @@ The intent behind this project is to help answer the following questions using S
 
 ## File Descriptions <a name='filedesc'></a>
 
- |-Developer Programming Language Use and Interest.ipynb
- |-README.md
- |-2016 Stack Overflow Survey Responses.csv
- |-survey_results_public_2017.csv
- |-survey_results_public_2018.csv
- |-survey_results_public_2019.csv
- |-survey_results_public_2020.csv
- |-READ_ME_-_The_Public_2016_Stack_Overflow_Developer_Survey_Results.txt
- |-survey_results_schema_2017.csv
- |-survey_results_schema_2018.csv
- |-survey_results_schema_2019.csv
+ |-Developer Programming Language Use and Interest.ipynb    
+ |-README.md    
+ |-2016 Stack Overflow Survey Responses.csv     
+ |-survey_results_public_2017.csv   
+ |-survey_results_public_2018.csv   
+ |-survey_results_public_2019.csv   
+ |-survey_results_public_2020.csv   
+ |-READ_ME_-_The_Public_2016_Stack_Overflow_Developer_Survey_Results.txt    
+ |-survey_results_schema_2017.csv   
+ |-survey_results_schema_2018.csv   
+ |-survey_results_schema_2019.csv   
  |-survey_results_schema_2020.csv
+
+<br>
 
 Due to GitHub storage limitations only the analytics notebook pertaining to the above questions has been provided in this repo. The csv files containing the stackoverflow data and schemas (as well as the 2016 schema readme .txt) can be downloaded here - https://insights.stackoverflow.com/survey.
 
